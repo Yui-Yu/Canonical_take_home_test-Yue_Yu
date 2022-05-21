@@ -1,0 +1,25 @@
+#cards {
+    align-items: center;
+    height:100vh;
+}
+/*make the div in the center of the page*/
+
+#information {
+    font-style: italic;
+}
+
+.box{
+    box-shadow: 0px -4px 0px 0px rgba(153, 38, 38, 1); 
+    border-radius: 3px;
+}
+/*customise the box shadow*/
+
+@media only screen and (min-width: 1024px) {
+    #title {
+        text-align: left;
+        min-height: 8rem;
+        min-width: 8rem;
+    }
+}
+/* when the screen size is larger tahn 1024px, the cards will self adapt and represent in a column */
+
